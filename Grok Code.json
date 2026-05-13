@@ -1,1 +1,1 @@
-{"version":"1.0","short_notes":"Initial release","long_notes":"Initial release","routinehub_id":"24965","date":"February 25, 2026"}
+{"version":"2.0","short_notes":"Now uses Grok 4.3 because of the impending deprecation of grok-code-fast-1 on May 15.","long_notes":"Now uses Grok 4.3 because of the impending deprecation of grok-code-fast-1 on May 15.","routinehub_id":"24965","date":"May 13, 2026"}

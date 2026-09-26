@@ -13,4 +13,4 @@ Each shortcut's file has 7 keys:
 
     If the shortcut is not posted on RoutineHub, a direct iCloud link to it will be provided under the key **url**.
 
-shortcuts that have not been updated in a while may not have the `build` and `type` keys.
+Shortcuts that have not been updated in a while may not have the `build` and `type` keys.

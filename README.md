@@ -1,13 +1,12 @@
 # RoutineHub-Shortcuts
 The JSON update files for my Shortcuts
 
-Currently a work in progress, not complete
+Each shortcut's file has 7 keys:
 
-Each shortcut's file has 5 keys:
-
-- **version**: The latest version that was released
-- **date**: The date the last version was released
+- **version**: The human-readable version number of the latest update.
+- **date**: The date the latest version was released.
 - **short_notes**: The short description of the changes I made
 - **long_notes**: The longer description of the changes I made
-- **routinehub_id**: The id of the shortcut on RoutineHub. You can access the shortcut's page on RoutineHub by navigating to the url `https://routinehub.co/shortcut/{routinehub_id}`
-- **url**: In the rare instance that the shortcut is not actually posted on RoutineHub, I will include a direct iCloud link to the shortcut instead.
+- **type**: The type of the release. Can be either `stable` or `beta`. All the files in this repository will be `stable`.
+- **build**: The machine-readable version number of the latest update, which always increases by 1 with each update.
+- **routinehub_id** or **url**: The id of the shortcut on RoutineHub. You can access the shortcut's page on RoutineHub by navigating to the url `https://routinehub.co/shortcut/{routinehub_id}`
